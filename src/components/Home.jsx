@@ -129,25 +129,37 @@ return ( <div className="relative w-full overflow-x-hidden min-h-screen flex fle
       </div>
 
       <div className="flex flex-col cursor-pointer items-center w-24 sm:w-auto">
-        <img src="HomeImages/PopulerImages/Tablets.png" alt="" className="w-full sm:w-3xs transition-transform duration-300 ease-in-out hover:scale-110" />
+        <Link to="/shop">
+         <img src="HomeImages/PopulerImages/Tablets.png" alt="" className="w-full sm:w-3xs transition-transform duration-300 ease-in-out hover:scale-110" />
+        </Link>
+       
         <h2 className="text-center text-lg sm:text-2xl text-gray-600 mt-3">Tablets</h2>
        
       </div>
 
       <div className="flex flex-col cursor-pointer items-center w-24 sm:w-auto">
-        <img src="HomeImages/PopulerImages/Wearble.png" alt="" className="w-full sm:w-3xs transition-transform duration-300 ease-in-out hover:scale-110" />
+        <Link to="/shop">
+         <img src="HomeImages/PopulerImages/Wearble.png" alt="" className="w-full sm:w-3xs transition-transform duration-300 ease-in-out hover:scale-110" />
+        </Link>
+       
         <h2 className="text-center text-lg sm:text-2xl text-gray-600 mt-3">Wearable</h2>
         
       </div>
 
       <div className="flex flex-col cursor-pointer items-center w-24 sm:w-auto">
+        <Link to="/shop">
         <img src="HomeImages/PopulerImages/Gaming.png" alt="" className="w-full sm:w-3xs transition-transform duration-300 ease-in-out hover:scale-110" />
+        </Link>
+        
         <h2 className="text-center text-lg sm:text-2xl text-gray-600 mt-3">Gaming</h2>
       
       </div>
 
       <div className="flex flex-col cursor-pointer items-center w-24 sm:w-auto">
-        <img src="HomeImages/PopulerImages/Accesories.png" alt="" className="w-full sm:w-3xs transition-transform duration-300 ease-in-out hover:scale-110" />
+        <Link to="/shop">
+         <img src="HomeImages/PopulerImages/Accesories.png" alt="" className="w-full sm:w-3xs transition-transform duration-300 ease-in-out hover:scale-110" />
+        </Link>
+       
         <h2 className="text-center text-lg sm:text-2xl text-gray-600 mt-3">Accessories</h2>
         
       </div>
@@ -164,10 +176,13 @@ return ( <div className="relative w-full overflow-x-hidden min-h-screen flex fle
   <div className="flex items-center gap-2 mb-6 justify-center">
     <FaApple className="text-8xl"data-aos="fade-in" />
   </div>
-
+<Link to="/shop">
   <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
     {/* iPhone 16 Series Card */}
     <div className="bg-gray-50 rounded-2xl p-6 pt-10 flex flex-col items-center text-center cursor-pointer group transition-all duration-300 ease-in-out hover:shadow-lg relative overflow-hidden"data-aos="fade-left">
+      
+      
+      
       <img
         src="HomeImages/AppleProducts/IPHONE 16 PRO BLACK.png"
         alt="iPhone 16"
@@ -176,12 +191,7 @@ return ( <div className="relative w-full overflow-x-hidden min-h-screen flex fle
       <div className="z-10 -mt-8">
         <h3 className="text-5xl text-black">iPhone 16 Series</h3>
         <p className="text-gray-500 text-3xl mt-1">Starting from 920$</p>
-        <a
-          href="#"
-          className="text-gray-600 text-2xl mt-2 inline-block underline duration-300 decoration-gray-800 hover:decoration-gray-300"
-        >
-          Check Now
-        </a>
+       
       </div>
     </div>
 
@@ -192,18 +202,16 @@ return ( <div className="relative w-full overflow-x-hidden min-h-screen flex fle
         <div className="z-10">
           <h3 className="text-3xl md:text-4xl text-black">Apple iPads</h3>
           <p className="text-gray-500 text-2xl mt-1">Starting from 360$</p>
-          <a
-            href="#"
-            className="text-gray-600 text-xl mt-2 inline-block underline duration-300 decoration-gray-800 hover:decoration-gray-300"
-          >
-            Check Now
-          </a>
+          
         </div>
+        <Link to="/shop">
         <img
           src="HomeImages/AppleProducts/Ipad 11 pro.png"
           alt="iPad"
           className="w-40 md:w-48 transform transition-transform duration-300 ease-in-out group-hover:scale-110 z-0"
         />
+        </Link>
+        
       </div>
 
       {/* MacBook Card */}
@@ -211,43 +219,44 @@ return ( <div className="relative w-full overflow-x-hidden min-h-screen flex fle
         <div className="z-10">
           <h3 className="text-3xl md:text-4xl text-black">MacBook Pro</h3>
           <p className="text-gray-500 text-2xl mt-1">Starting from 1299$</p>
-          <a
-            href="#"
-            className="text-gray-600 text-xl mt-2 inline-block underline duration-300 decoration-gray-800 hover:decoration-gray-300"
-          >
-            Check Now
-          </a>
+         
         </div>
-        <img
+        <Link to="/shop">
+         <img
           src="HomeImages/AppleProducts/MACBOOK PRO M3.png"
           alt="MacBook"
           className="w-40 md:w-48 transform transition-transform duration-300 ease-in-out group-hover:scale-110 z-0"
         />
+        </Link>
+       
       </div>
       {/* Watch Card */}
       <div className="bg-gray-50 rounded-2xl p-4 flex items-center justify-between cursor-pointer group transition-all duration-300 ease-in-out hover:shadow-lg relative overflow-hidden h-44 md:h-48">
         <div className="z-10">
           <h3 className="text-3xl md:text-4xl text-black">Apple Watches</h3>
           <p className="text-gray-500 text-2xl mt-1">Starting from 385$</p>
-          <a
-            href="#"
-            className="text-gray-600 text-xl mt-2 inline-block underline duration-300 decoration-gray-800 hover:decoration-gray-300"
-          >
-            Check Now
-          </a>
+          
         </div>
-        <img
+        <Link to="/shop">
+         <img
           src="/HomeImages/PopulerImages/Wearble.png"
           alt="Watch"
           className="w-36 md:w-44 transform transition-transform duration-300 ease-in-out group-hover:scale-110 z-0"
         />
+        </Link>
+       
       </div>
     </div>
   </div>
+  </Link>
 </section>
+<Link to="/shop">
 <section>
   <ProductSlider />
 </section>
+</Link>
+<Link to="/shop">
+
   <section className="w-full max-w-7xl mx-auto mt-16 lg:mt-8">
   <div className="flex items-center gap-2 mb-6 justify-center">
     <SiSamsung className="text-8xl" data-aos="fade-in" />
@@ -256,20 +265,18 @@ return ( <div className="relative w-full overflow-x-hidden min-h-screen flex fle
   <div className="grid grid-cols-1 lg:grid-cols-2 gap-6"data-aos="fade-left">
     {/*S Series Card */}
     <div className="bg-gray-50 rounded-2xl p-6 pt-10 flex flex-col items-center text-center cursor-pointer group transition-all duration-300 ease-in-out hover:shadow-lg relative overflow-hidden">
+      <Link to="/shop">
       <img
         src="HomeImages/SamsungProducts/S25 ULTRA TITANIUM BLACK.png"
         alt="iPhone 16"
         className="-mt-10 w-full sm:w-5xl transform transition-transform duration-300 ease-in-out group-hover:scale-110 z-0"
       />
+      </Link>
+      
       <div className="z-10 -mt-8">
         <h3 className="text-5xl text-black">Samsung s25 ultra</h3>
         <p className="text-gray-500 text-3xl mt-1">Starting from 1210$</p>
-        <a
-          href="#"
-          className="text-gray-600 text-2xl mt-2 inline-block underline duration-300 decoration-gray-800 hover:decoration-gray-300"
-        >
-          Check Now
-        </a>
+        
       </div>
     </div>
 
@@ -280,18 +287,16 @@ return ( <div className="relative w-full overflow-x-hidden min-h-screen flex fle
         <div className="z-10">
           <h3 className="text-3xl md:text-4xl text-black">Samsung Tablets</h3>
           <p className="text-gray-500 text-2xl mt-1">Starting from 360$</p>
-          <a
-            href="#"
-            className="text-gray-600 text-xl mt-2 inline-block underline duration-300 decoration-gray-800 hover:decoration-gray-300"
-          >
-            Check Now
-          </a>
+          
         </div>
-        <img
+        <Link to="/shop">
+         <img
           src="HomeImages/SamsungProducts/Samsung tab s10.png"
           alt="iPad"
           className="w-40 md:w-48 transform transition-transform duration-300 ease-in-out group-hover:scale-110 z-0"
         />
+        </Link>
+       
       </div>
 
       {/* Buds Card */}
@@ -299,44 +304,42 @@ return ( <div className="relative w-full overflow-x-hidden min-h-screen flex fle
         <div className="z-10">
           <h3 className="text-3xl md:text-4xl text-black">Samsung Galaxy Buds</h3>
           <p className="text-gray-500 text-2xl mt-1">Starting from 1299$</p>
-          <a
-            href="#"
-            className="text-gray-600 text-xl mt-2 inline-block underline duration-300 decoration-gray-800 hover:decoration-gray-300"
-          >
-            Check Now
-          </a>
+         
         </div>
-        <img
+        <Link to="/shop">
+         <img
           src="HomeImages/SamsungProducts/GalaxyBuds3.png"
           alt="MacBook"
           className="w-40 md:w-48 transform transition-transform duration-300 ease-in-out group-hover:scale-110 z-0"
         />
+        </Link>
+       
       </div>
       {/* Watch Card */}
       <div className="bg-gray-50 rounded-2xl p-4 flex items-center justify-between cursor-pointer group transition-all duration-300 ease-in-out hover:shadow-lg relative overflow-hidden h-44 md:h-48">
         <div className="z-10">
           <h3 className="text-3xl md:text-4xl text-black">Samsung galaxy watch</h3>
           <p className="text-gray-500 text-2xl mt-1">Starting from 450$</p>
-          <a
-            href="#"
-            className="text-gray-600 text-xl mt-2 inline-block underline duration-300 decoration-gray-800 hover:decoration-gray-300"
-          >
-            Check Now
-          </a>
+         
         </div>
-        <img
+        <Link to="/shop">
+         <img
           src="HomeImages/SamsungProducts/GALAXY WATCH 6 CLASSIC.webp"
           alt="Watch"
           className="w-36 md:w-44 transform transition-transform duration-300 ease-in-out group-hover:scale-110 z-0"
         />
+        </Link>
+       
       </div>
     </div>
   </div>
 </section>
+</Link>
+<Link to="/shop">
 <section>
   <ProductSlider2 />
 </section>
-
+</Link>
 
 
 <section className="bg-black text-white py-10 px-6 md:px-20 w-screen">
@@ -356,9 +359,18 @@ return ( <div className="relative w-full overflow-x-hidden min-h-screen flex fle
     <div className="flex flex-col items-start md:items-end">
       <h3 className="text-4xl mb-4">Follow Us</h3>
       <div className="flex items-center space-x-5 text-3xl text-gray-300">
-        <FaWhatsapp className="hover:text-lime-500 transition duration-300 cursor-pointer" />
-        <FaTiktok className="hover:text-lime-500 transition duration-300 cursor-pointer" />
-        <FaInstagram className="hover:text-lime-500 transition duration-300 cursor-pointer" />
+        <a href="https://wa.me/+96103903800" target='blank'>
+           <FaWhatsapp className="hover:text-lime-500 transition duration-300 cursor-pointer" />
+        </a>
+        <a href="https://www.instagram.com/bawab_cell?igsh=MW9sbHpzanU2ZXMyYQ==" target='blank'>
+ <FaInstagram className="hover:text-lime-500 transition duration-300 cursor-pointer" />
+        </a>
+        <a href="https://www.tiktok.com/@bawab_cell" target='blank'>
+ <FaTiktok className="hover:text-lime-500 transition duration-300 cursor-pointer" />
+        </a>
+       
+       
+       
       </div>
     </div>
   </div>

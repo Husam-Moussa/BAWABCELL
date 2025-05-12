@@ -3,64 +3,70 @@ import { FiShoppingCart, FiSearch, FiX } from "react-icons/fi";
 
 const products = [
   {
-    name: "Apple Iphone 16",
-    price: "850$",
-    type: "Mobile Phones",
+
+name: "Apple Iphone 16 pro max black(128gb)",
+price: "1500$",
+type: "Mobile Phones",
+images: [
+"HomeImages/AppleProducts/IPHONE 16 PRO BLACK.png",
+"HomeImages/AppleProducts/iphone\_16\_pro\_black\_titanium\_pdp\_image\_position\_1b\_\_en-me\_large\_20.png",
+"HomeImages/AppleProducts/iphone\_16\_pro\_black\_titanium\_pdp\_image\_position\_2\_\_en-me\_large\_20.png",
+
+
+],
+
+
+},
+  {
+
+name: "Apple tv",
+price: "250$",
+type: "accessories",
+images: [
+"public/HomeImages/AppleProducts/appletv1.png",
+"HomeImages/AppleProducts/appletv2.png",
+"HomeImages/AppleProducts/appletv3.png",
+],
+},
+  {
+    name: "Playstation 5 slim",
+    price: "540$",
+    type: "Gaming",
     images: [
-      "HomeImages/AppleProducts/IPHONE 16 ULTRAMARINE.png",
-      "HomeImages/AppleProducts/IPHONE 16 WHITE.png",
-      "HomeImages/AppleProducts/IPHONE 16 TEAL.png",
-      "HomeImages/AppleProducts/IPHONE 16 BLACK.png",
+      "public/HomeImages/GamingProducts/ps5-slim_35fcd236-d20b-4098-9a5c-2b7659cb3c93.png",
+      "public/HomeImages/GamingProducts/ps5-slim.png",
+      
     ],
   },
   {
-    name: "Apple Ipad 10th gen",
-    price: "330$",
-    type: "Tablets",
-    images: [
-      "HomeImages/AppleProducts/ipad_a16_wifi_silver_pdp_image_position_1__en-ae_4.png",
-      "HomeImages/AppleProducts/ipad_10.9_inch_wi-fi_silver_pdp_image_position-1a_en_1.png",
-     
-    ],
-  },
+
+name: "Apple Ipad pro 11 white(128gb)",
+price: "950$",
+type: "Tablets",
+images: [
+"HomeImages/AppleProducts/ipad\_pro\_13\_m4\_wifi\_silver\_pdp\_image\_position\_1b\_\_en-me.png",
+"HomeImages/AppleProducts/ipad\_pro\_13\_m4\_2.png",
+"HomeImages/AppleProducts/ipad\_pro\_13\_m4\_4.png",
+],
+},
   {
-    name: "Apple Watch Series 10",
-    price: "380$",
+    name: "Apple watch series 9",
+    price: "450$",
     type: "Wearable",
     images: [
-      "HomeImages/AppleProducts/APPLE WATCH SERIES 10 BLACK.png",
-      "HomeImages/AppleProducts/APPLE WATCH SERIES 10 ROSEGOLD.png",
-      "HomeImages/AppleProducts/APPLE WATCH SERIES 10 SILVER.png",
+      "HomeImages/AppleProducts/applewatchseries9.png",
+      "HomeImages/AppleProducts/applewatchseries9-2.png",
+      "HomeImages/AppleProducts/applewatchseries9-3.png",
     ],
   },
   {
-    name: "Samsung Galaxy s25 ultra",
-    price: "1300$",
-    type: "Mobile Phones",
+    name: "HyperX cloud",
+    price: "90$",
+    type: "Gaming",
     images: [
-      "HomeImages/SamsungProducts/S25 ULTRA TITANIUM BLACK.png",
-      "HomeImages/SamsungProducts/S25 ULTRA TITANIUM GRAY.png",
-      "HomeImages/SamsungProducts/S25 ULTRA TITANIUM SILVERBLUE.png",
-      "HomeImages/SamsungProducts/S25 ULTRA TITANIUM WHITESILVER.png",
-    ],
-  },
-  {
-    name: "Infinix Note 50 pro plus",
-    price: "430$",
-    type: "Mobile Phones",
-    images: [
-      "HomeImages/InfinixProducts/InfinixNote50ProRacing.png",
-      "HomeImages/InfinixProducts/InfinixNote50ProTitininium.png",
-      "HomeImages/InfinixProducts/InfinixNote50ProPurple.png",
-    ],
-  },
-  {
-    name: "SAMSUNG Galaxy Zfold",
-    price: "1470$",
-    type: "Mobile Phones",
-    images: [
-      "HomeImages/SamsungProducts/SamsungGalaxyZfoldNavy.png",
-      "HomeImages/SamsungProducts/SamsungGalaxyZfoldSilver.png",
+      "public/HomeImages/GamingProducts/HyperX-Cloud-Jet.png",
+      "public/HomeImages/GamingProducts/HyperX-Cloud-Jet-5.png",
+      "public/HomeImages/GamingProducts/HyperX-Cloud-Jet-6.png",
     ],
   },
 ];

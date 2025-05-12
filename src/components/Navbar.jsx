@@ -70,10 +70,13 @@ const Navbar = () => {
               </span>
             )}
           </Link>
+           <a href="https://wa.me/+96103903800" target='blank'>
           <button className="bg-black text-white p-3 rounded-full flex items-center text-md cursor-pointer gap-2 hover:opacity-80">
+            
             <FaWhatsapp className="text-md" />
             Whatsapp Support
           </button>
+          </a>
         </div>
       </div>
 
@@ -100,10 +103,12 @@ const Navbar = () => {
             </Link>
           ))}
           <div className="flex flex-col items-center gap-4">
+             <a href="https://wa.me/+96103903800" target='blank'>
             <button className="bg-black text-white p-3 rounded-full flex items-center text-md cursor-pointer gap-2 hover:opacity-80">
               <FaWhatsapp className="text-md" />
               Whatsapp Support
             </button>
+            </a>
           </div>
         </nav>
       </div>
