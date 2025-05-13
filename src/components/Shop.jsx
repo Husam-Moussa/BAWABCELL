@@ -350,8 +350,8 @@ images: [
     price: "540$",
     type: "Gaming",
     images: [
-      "public/HomeImages/GamingProducts/ps5-slim_35fcd236-d20b-4098-9a5c-2b7659cb3c93.png",
-      "public/HomeImages/GamingProducts/ps5-slim.png",
+      "HomeImages/GamingProducts/ps5-slim_35fcd236-d20b-4098-9a5c-2b7659cb3c93.png",
+      "HomeImages/GamingProducts/ps5-slim.png",
       
     ],
   },
@@ -361,9 +361,154 @@ images: [
     price: "90$",
     type: "Gaming",
     images: [
-      "public/HomeImages/GamingProducts/HyperX-Cloud-Jet.png",
-      "public/HomeImages/GamingProducts/HyperX-Cloud-Jet-5.png",
-      "public/HomeImages/GamingProducts/HyperX-Cloud-Jet-6.png",
+      "HomeImages/GamingProducts/HyperX-Cloud-Jet.png",
+      "HomeImages/GamingProducts/HyperX-Cloud-Jet-5.png",
+      "HomeImages/GamingProducts/HyperX-Cloud-Jet-6.png",
+    ],
+  },
+  
+   {
+    id:36,
+    name: "Call of Duty: Black Ops 6",
+    price: "75$",
+    type: "Gaming",
+    images: [
+      "HomeImages/GamingProducts/black-ops-6-ps5.png",
+      
+    ],
+  },
+   {
+    id:37,
+    name: "Nintendo Switch",
+    price: "400$",
+    type: "Gaming",
+    images: [
+      "HomeImages/GamingProducts/nintendo-switch_e805dce3-dd7c-4313-86d9-0b11fa3a9a03.png",
+      "HomeImages/GamingProducts/nintendo-switch3_890c29a0-3cdf-4da5-b2c4-14ca8da25fb5.png",
+      "HomeImages/GamingProducts/nintendo-switch2_aa3ee367-7c55-495b-8068-41d2a730b68e.png",
+      
+    ],
+  },
+   {
+    id:38,
+    name: "HyperX Alloy Rise 75",
+    price: "140$",
+    type: "Gaming",
+    images: [
+      "HomeImages/GamingProducts/hyperx_alloy_rise_75.png",
+      "HomeImages/GamingProducts/hyperx_alloy_rise_75-3.png",
+      "HomeImages/GamingProducts/hyperx_alloy_rise_75-4.png",
+      
+    ],
+  },
+  {
+     id:39,
+    name: "Samsung s25+",
+    price: "980$",
+    type: "Mobile Phones",
+    images: [
+      "HomeImages/SamsungProducts/S25+-1.png",
+      "HomeImages/SamsungProducts/S25+-2.png",
+      "HomeImages/SamsungProducts/S25+-3.png",
+    ],
+  },
+  {
+     id:40,
+    name: "Samsung Case",
+    price: "15$",
+    type: "accessories",
+    images: [
+      "HomeImages/SamsungProducts/Case1.png",
+      "HomeImages/SamsungProducts/Case2.png",
+      "HomeImages/SamsungProducts/Case4.png",
+    ],
+  },
+  {
+     id:41,
+    name: "Samsung Galaxy Watch 7",
+    price: "160$",
+    type: "Wearable",
+    images: [
+      "HomeImages/SamsungProducts/samsung-galaxy-watch-7-1.png",
+      "HomeImages/SamsungProducts/samsung-galaxy-watch-7-2.png",
+      "HomeImages/SamsungProducts/samsung-galaxy-watch-7-3.png",
+    ],
+  },
+  {
+     id:42,
+    name: "Samsung Galaxy SmartTag",
+    price: "15$",
+    type: "accessories",
+    images: [
+      "HomeImages/SamsungProducts/Smarttag-1.png",
+      "HomeImages/SamsungProducts/Smarttag-2.png",
+      "HomeImages/SamsungProducts/Smarttag-3.png",
+    ],
+  },
+  {
+     id:43,
+    name: "Samsung 25W Battery Pack",
+    price: "38$",
+    type: "accessories",
+    images: [
+      "HomeImages/SamsungProducts/Battery1.png",
+      "HomeImages/SamsungProducts/Battery2.png",
+      "HomeImages/SamsungProducts/Battery3.png",
+    ],
+  },
+  {
+     id:44,
+    name: "Samsung Galaxy Buds 3",
+    price: "80$",
+    type: "Wearable",
+    images: [
+      "HomeImages/SamsungProducts/GalaxyBuds3.png",
+      "HomeImages/SamsungProducts/Buds-3.png",
+      "HomeImages/SamsungProducts/Buds-2.png",
+    ],
+  },
+  {
+     id:45,
+    name: "S25 ULTRA TITANIUM BLACK (256gb)",
+    price: "1150$",
+    type: "Mobile Phones",
+    images: [
+       "HomeImages/SamsungProducts/S25 ULTRA TITANIUM BLACK.png",
+      "HomeImages/SamsungProducts/Samsung-Galaxy-S25-Ultra-5.png",
+      "HomeImages/SamsungProducts/Samsung-Galaxy-S25-Ultra-1.png",
+    ],
+  },
+  {
+     id:46,
+    name: "S25 ULTRA TITANIUM gray (256gb)",
+    price: "1150$",
+    type: "Mobile Phones",
+    images: [
+       "HomeImages/SamsungProducts/S25 ULTRA TITANIUM GRAY.png",
+      "HomeImages/SamsungProducts/Galaxy-S25-Ultra-26.png",
+      "HomeImages/SamsungProducts/Galaxy-S25-Ultra-24.png",
+    ],
+  },
+  {
+     id:47,
+    name: "S25 ULTRA TITANIUM silverblue (256gb)",
+    price: "1150$",
+    type: "Mobile Phones",
+    images: [
+       "HomeImages/SamsungProducts/S25 ULTRA TITANIUM SILVERBLUE.png",
+      "HomeImages/SamsungProducts/Galaxy-S25-Ultra-17.png",
+      "HomeImages/SamsungProducts/Galaxy-S25-Ultra-15.png",
+    ],
+  },
+  {
+     id:48,
+    name: "S25 ULTRA TITANIUM whitesilver (256gb)",
+    price: "1150$",
+    type: "Mobile Phones",
+    images: [
+       "HomeImages/SamsungProducts/S25 ULTRA TITANIUM WHITESILVER.png",
+      "HomeImages/SamsungProducts/Galaxy-S25-Ultra-17.png",
+      "HomeImages/SamsungProducts/Galaxy-S25-Ultra-6.png",
     ],
   },
 ];

@@ -170,7 +170,9 @@ return ( <div className="relative w-full overflow-x-hidden min-h-screen flex fle
 
 
   <section>
+    <Link to="/shop">
     <ProductSlider3/>
+    </Link>
   </section>
   <section className="w-full max-w-7xl mx-auto mt-16 lg:mt-8">
   <div className="flex items-center gap-2 mb-6 justify-center">
@@ -204,13 +206,13 @@ return ( <div className="relative w-full overflow-x-hidden min-h-screen flex fle
           <p className="text-gray-500 text-2xl mt-1">Starting from 360$</p>
           
         </div>
-        <Link to="/shop">
+        
         <img
           src="HomeImages/AppleProducts/Ipad 11 pro.png"
           alt="iPad"
           className="w-40 md:w-48 transform transition-transform duration-300 ease-in-out group-hover:scale-110 z-0"
         />
-        </Link>
+       
         
       </div>
 
@@ -221,13 +223,13 @@ return ( <div className="relative w-full overflow-x-hidden min-h-screen flex fle
           <p className="text-gray-500 text-2xl mt-1">Starting from 1299$</p>
          
         </div>
-        <Link to="/shop">
+       
          <img
           src="HomeImages/AppleProducts/MACBOOK PRO M3.png"
           alt="MacBook"
           className="w-40 md:w-48 transform transition-transform duration-300 ease-in-out group-hover:scale-110 z-0"
         />
-        </Link>
+      
        
       </div>
       {/* Watch Card */}
@@ -237,13 +239,13 @@ return ( <div className="relative w-full overflow-x-hidden min-h-screen flex fle
           <p className="text-gray-500 text-2xl mt-1">Starting from 385$</p>
           
         </div>
-        <Link to="/shop">
+       
          <img
           src="/HomeImages/PopulerImages/Wearble.png"
           alt="Watch"
           className="w-36 md:w-44 transform transition-transform duration-300 ease-in-out group-hover:scale-110 z-0"
         />
-        </Link>
+       
        
       </div>
     </div>
@@ -255,8 +257,8 @@ return ( <div className="relative w-full overflow-x-hidden min-h-screen flex fle
   <ProductSlider />
 </section>
 </Link>
-<Link to="/shop">
 
+<Link to="/shop">
   <section className="w-full max-w-7xl mx-auto mt-16 lg:mt-8">
   <div className="flex items-center gap-2 mb-6 justify-center">
     <SiSamsung className="text-8xl" data-aos="fade-in" />
@@ -265,13 +267,13 @@ return ( <div className="relative w-full overflow-x-hidden min-h-screen flex fle
   <div className="grid grid-cols-1 lg:grid-cols-2 gap-6"data-aos="fade-left">
     {/*S Series Card */}
     <div className="bg-gray-50 rounded-2xl p-6 pt-10 flex flex-col items-center text-center cursor-pointer group transition-all duration-300 ease-in-out hover:shadow-lg relative overflow-hidden">
-      <Link to="/shop">
+     
       <img
         src="HomeImages/SamsungProducts/S25 ULTRA TITANIUM BLACK.png"
         alt="iPhone 16"
         className="-mt-10 w-full sm:w-5xl transform transition-transform duration-300 ease-in-out group-hover:scale-110 z-0"
       />
-      </Link>
+     
       
       <div className="z-10 -mt-8">
         <h3 className="text-5xl text-black">Samsung s25 ultra</h3>
@@ -289,13 +291,13 @@ return ( <div className="relative w-full overflow-x-hidden min-h-screen flex fle
           <p className="text-gray-500 text-2xl mt-1">Starting from 360$</p>
           
         </div>
-        <Link to="/shop">
+        
          <img
           src="HomeImages/SamsungProducts/Samsung tab s10.png"
           alt="iPad"
           className="w-40 md:w-48 transform transition-transform duration-300 ease-in-out group-hover:scale-110 z-0"
         />
-        </Link>
+       
        
       </div>
 
@@ -306,13 +308,13 @@ return ( <div className="relative w-full overflow-x-hidden min-h-screen flex fle
           <p className="text-gray-500 text-2xl mt-1">Starting from 1299$</p>
          
         </div>
-        <Link to="/shop">
+        
          <img
           src="HomeImages/SamsungProducts/GalaxyBuds3.png"
           alt="MacBook"
           className="w-40 md:w-48 transform transition-transform duration-300 ease-in-out group-hover:scale-110 z-0"
         />
-        </Link>
+        
        
       </div>
       {/* Watch Card */}
@@ -322,13 +324,13 @@ return ( <div className="relative w-full overflow-x-hidden min-h-screen flex fle
           <p className="text-gray-500 text-2xl mt-1">Starting from 450$</p>
          
         </div>
-        <Link to="/shop">
+        
          <img
           src="HomeImages/SamsungProducts/GALAXY WATCH 6 CLASSIC.webp"
           alt="Watch"
           className="w-36 md:w-44 transform transition-transform duration-300 ease-in-out group-hover:scale-110 z-0"
         />
-        </Link>
+       
        
       </div>
     </div>

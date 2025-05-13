@@ -23,7 +23,7 @@ name: "Apple tv",
 price: "250$",
 type: "accessories",
 images: [
-"public/HomeImages/AppleProducts/appletv1.png",
+"HomeImages/AppleProducts/appletv1.png",
 "HomeImages/AppleProducts/appletv2.png",
 "HomeImages/AppleProducts/appletv3.png",
 ],
@@ -33,8 +33,8 @@ images: [
     price: "540$",
     type: "Gaming",
     images: [
-      "public/HomeImages/GamingProducts/ps5-slim_35fcd236-d20b-4098-9a5c-2b7659cb3c93.png",
-      "public/HomeImages/GamingProducts/ps5-slim.png",
+      "HomeImages/GamingProducts/ps5-slim_35fcd236-d20b-4098-9a5c-2b7659cb3c93.png",
+      "HomeImages/GamingProducts/ps5-slim.png",
       
     ],
   },
@@ -64,9 +64,9 @@ images: [
     price: "90$",
     type: "Gaming",
     images: [
-      "public/HomeImages/GamingProducts/HyperX-Cloud-Jet.png",
-      "public/HomeImages/GamingProducts/HyperX-Cloud-Jet-5.png",
-      "public/HomeImages/GamingProducts/HyperX-Cloud-Jet-6.png",
+      "HomeImages/GamingProducts/HyperX-Cloud-Jet.png",
+      "HomeImages/GamingProducts/HyperX-Cloud-Jet-5.png",
+      "HomeImages/GamingProducts/HyperX-Cloud-Jet-6.png",
     ],
   },
 ];
